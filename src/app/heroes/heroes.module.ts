@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { HeroComponent } from './components/hero/hero.component';
 import { ListComponent } from './components/list/list.component';
-import { CommonModule } from '@angular/common';//siempre importarlo porque es necesario para usar las directivas *ng
 
+import { CommonModule } from '@angular/common';//siempre importarlo porque es necesario para usar las directivas *ng
 @NgModule({
   declarations:[
     HeroComponent,
